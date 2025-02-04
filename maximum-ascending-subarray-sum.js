@@ -1,13 +1,10 @@
-const nums = [6];
+const nums = [1, 2, 3, 4, 0];
 
-let maxResult = 0;
 
 
 function check(nums) {
+    let maxResult = nums[0];
     let curResult = nums[0];
-    if(nums.length === 1) {
-        return nums[0]
-    }
     for(let i = 1; i < nums.length; i++) {
         if(nums[i] > nums[i - 1]) {
             curResult += nums[i]
