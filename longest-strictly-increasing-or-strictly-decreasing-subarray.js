@@ -1,3 +1,6 @@
+// You are given an array of integers nums. Return the length of the longest subarray
+// of nums which is either strictly increasingor strictly decreasing.
+
 const nums = [1, 2, 3, 4, 1, 2];
 
 function longestMonotonicSubarray(nums) {

@@ -1,3 +1,5 @@
+// Given an array of positive integers nums, return the maximum possible sum of an ascending subarray in nums.
+
 const nums = [1, 2, 3, 4, 0];
 
 
