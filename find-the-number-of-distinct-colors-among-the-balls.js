@@ -1,7 +1,8 @@
-const limit = 1;
+// Return an array result of length n, where result[i] denotes the number of distinct colors after ith query.
+
 const queries = [[0,1],[1,4],[1,1],[1,4],[1,1]];
 
-function check(limit, queries) {
+function check(queries) {
     let uniqueColors = []; 
     let colorsStored = new Map();
     let colorCount = new Map();
@@ -26,4 +27,4 @@ function check(limit, queries) {
     return uniqueColors;
 }
 
-console.log(check(limit, queries)); 
+console.log(check(queries)); 
