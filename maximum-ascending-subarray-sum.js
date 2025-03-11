@@ -4,7 +4,7 @@ const nums = [1, 2, 3, 4, 0];
 
 
 
-function check(nums) {
+function maximumAscendingSubarray(nums) {
     let maxResult = nums[0];
     let curResult = nums[0];
     for(let i = 1; i < nums.length; i++) {
@@ -24,4 +24,4 @@ function check(nums) {
     return maxResult;
 }
 
-console.log(check(nums))
+console.log(maximumAscendingSubarray(nums))
