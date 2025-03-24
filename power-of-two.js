@@ -5,4 +5,4 @@ function powerOfTwo(n) {
 
 }
 
-console.log(powerOfTwo(n))
+console.log(powerOfTwo(n)) // true
